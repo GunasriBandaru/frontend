@@ -1,0 +1,17 @@
+ //Return the number of vowels in a string
+//Create a function that'll return an integer of the number of vowels found in a strin
+
+var name="vowels"
+function m1(vow)
+{
+    return vow=="a"|| vow== "e" || vow == "i" || vow == "o" || vow=="u";
+}
+function m2(name)
+{
+    var count=0;
+    for(var i=0;i<name.length;i++)
+    if(m1(name[i]))
+    ++count;
+    return count;
+}
+console.log(m2(name))
