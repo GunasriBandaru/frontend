@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "corousel": "^0.1.8",
+    "react-icons": "^4.4.0",
+    "react-responsive": "^9.0.0",
+    "react-router-dom": "^6.4.2"
+  }
+}
